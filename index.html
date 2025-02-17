@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Fardeen Ibad | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "e4rcJCFdzrT1_ESXB",
+      });
+   })();
+</script>
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <div class="logo">Mohd Fardeen Ibad</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Mohd Fardeen Ibad</span></h1>
+            <p>Aspiring Software Developer | Cyber Security Enthusiast</p>
+           <div class="buttonc"><a href="#contact" class="btn">Contact Me</a></div> 
+        </div>
+        <div class="hero-img">
+            <img src="profile.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Mohd Fardeen Ibad, a highly motivated Software Developer and Cyber Security Enthusiast with a strong foundation in Java, Python, and Web Development. My passion lies in creating efficient and secure software solutions while continuously expanding my knowledge in AI and Machine Learning.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="edu-item">
+                <h3>Bachelor of Engineering – CSE (AI & ML)</h3>
+                <p>Lords Institute of Engineering and Technology, Osmania University (2025)</p>
+            </div>
+            <div class="edu-item">
+                <h3>Intermediate – MPC</h3>
+                <p>Sri Chaitanya Junior Kalasala, TSBIE (2021)</p>
+            </div>
+            <div class="edu-item">
+                <h3>SSC</h3>
+                <p>St Mark’s Boys Town High School, SSC (2019)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Credit Card Fraud Detection</h3>
+                <p>Technologies: HTML, CSS, Python, MySQL</p>
+            </div>
+            <div class="project-card">
+                <h3>Expense Tracker App</h3>
+                <p>Technologies: Java, OOPs, Collections</p>
+            </div>
+            <div class="project-card">
+                <h3>Chat Application</h3>
+                <p>Technologies: Java, OOPs, Collections</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mohdfardeenibad1704@gmail.com">mohdfardeenibad1704@gmail.com</a></p>
+        <p>Phone: +91 8466994672</p>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message">
+        <h2>Send Me a Message</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" onclick="sendMail()">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> Mohd Fardeen Ibad</p>
+    </footer>
+
+</body>
+</html>
