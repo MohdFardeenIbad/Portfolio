@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohd Fardeen Ibad | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -47,24 +48,23 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I am Mohd Fardeen Ibad, a highly motivated Software Developer and Cyber Security Enthusiast with a strong foundation in Java, Python, and Web Development. My passion lies in creating efficient and secure software solutions while continuously expanding my knowledge in AI and Machine Learning.</p>
+        <p id="aboutp">I am Mohd Fardeen Ibad, a highly motivated Software Developer and Cyber Security Enthusiast with a strong foundation in Java, Python, and Web Development. My passion lies in creating efficient and secure software solutions while continuously expanding my knowledge in AI and Machine Learning.</p>
     </section>
 
     <!-- Education Section -->
     <section id="education">
         <h2>Education</h2>
         <div class="timeline">
-            <div class="edu-item">
-                <h3>Bachelor of Engineering – CSE (AI & ML)</h3>
-                <p>Lords Institute of Engineering and Technology, Osmania University (2025)</p>
+            <div class="edu-item" onclick="window.open('bachelor.html', '_blank')" style="cursor: pointer">
+                <h3>Bachelor of Engineering</h3>
             </div>
-            <div class="edu-item">
-                <h3>Intermediate – MPC</h3>
-                <p>Sri Chaitanya Junior Kalasala, TSBIE (2021)</p>
+            <div class="edu-item" onclick="window.open('intermediate.html','_blank')" style="cursor:pointer">
+                <h3>Intermediate</h3>
+               
             </div>
-            <div class="edu-item">
+            <div class="edu-item" onclick="window.open('ssc.html','_blank')" style="cursor: pointer;">
                 <h3>SSC</h3>
-                <p>St Mark’s Boys Town High School, SSC (2019)</p>
+                
             </div>
         </div>
     </section>
@@ -75,15 +75,18 @@
         <div class="projects-container">
             <div class="project-card">
                 <h3>Credit Card Fraud Detection</h3>
-                <p>Technologies: HTML, CSS, Python, MySQL</p>
+                <p>Technologies: HTML, CSS, Python</p>
+                <a href="https://github.com/MohdFardeenIbad/Java-Projects.git" target="_blank" class="github-link">View on GitHub</a>
             </div>
             <div class="project-card">
                 <h3>Expense Tracker App</h3>
                 <p>Technologies: Java, OOPs, Collections</p>
+                <a href="https://github.com/MohdFardeenIbad/Java-Projects.git" target="_blank" class="github-link">View on GitHub</a>
             </div>
             <div class="project-card">
                 <h3>Chat Application</h3>
                 <p>Technologies: Java, OOPs, Collections</p>
+                <a href="https://github.com/MohdFardeenIbad/Java-Projects.git" target="_blank" class="github-link">View on GitHub</a>
             </div>
         </div>
     </section>
@@ -91,8 +94,11 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:mohdfardeenibad1704@gmail.com">mohdfardeenibad1704@gmail.com</a></p>
-        <p>Phone: +91 8466994672</p>
+        <p>Email: <a href="mailto:mohdfardeenibad1704@gmail.com" class="contact-link">mohdfardeenibad1704@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918466994672" class="contact-link">+91 8466994672</a></p>
+        <a href="Mohd Fardeen Ibad Resume.pdf" download="Mohd Fardeen Ibad Resume.pdf">
+            <button>Download Resume</button>
+        </a>
     </section>
 
     <!-- Message Section -->
@@ -108,7 +114,12 @@
 
     <!-- Footer -->
     <footer>
-        <p> Mohd Fardeen Ibad</p>
+        <p> 2025 Mohd Fardeen Ibad. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+            <a href="https://x.com" target="_blank" class="social-link">Twitter</a>
+        </div>
     </footer>
 
 </body>
